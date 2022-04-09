@@ -1,18 +1,24 @@
 <div>
-    <h2 class="titilo2">Habilidades Tecnicas Personales</h2>
+    <h2>Habilidades Tecnicas Personales</h2>
 </div>
 
 <ul class="list-unstyled">
-  <li>This is a list.</li>
-  <li>It appears completely unstyled.</li>
-  <li>Structurally, it's still a list.</li>
-  <li>However, this style only applies to immediate child elements.</li>
-  <li>Nested lists:
+  <li>Recursos del solicitante.</li>
+  
+  <li>Lenguajes de programacion que manejo:
     <ul>
-      <li>are unaffected by this style</li>
-      <li>will still show a bullet</li>
-      <li>and have appropriate left margin</li>
+      <li>Python 30%</li>
+      <li>C# 30%</li>
+      <li>Java 20%</li>
     </ul>
   </li>
-  <li>This may still come in handy in some situations.</li>
+  <li>Aprendiz en diseño y edicion de videos y paginas web</li>
+  <li>Fue alumna de la carrera de ITI en la universidad UP</li>
+  <li>Redes sociales:
+    <ul>
+      <li>Instagram: agus_y</li>
+      <li>Facebook: Agus Cruz</li>
+      <li>Linkedln: Agustín Cruz</li>
+    </ul>
+  </li>
 </ul>

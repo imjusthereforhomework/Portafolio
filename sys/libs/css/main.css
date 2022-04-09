@@ -1,13 +1,14 @@
 
           h2{
-            color: rgb(160, 19, 241);
+            color: rgb(45, 15, 94);
+            font-size: 60px;
           }
           nav{
             color: #123cdf;
             background-color: #c08300;
           }
           .titulo1{
-              color: red;
+              color: rgb(101, 67, 226);
               font-size: 50px;
               text-align: center;
               padding: 30px;
@@ -16,17 +17,18 @@
               background-color: #381f07;
           }
               .footer{
-                color: black;
+                color: rgb(93, 116, 216);
                 font-size: 20px;
                 text-align: center;
                 padding: 3px;
-                position: absolute;
+                position: relative;
                 bottom: 0;
                 width: 100%;
                 height: 50px;
             }
           h1{
-            color: #28a84e;
+            color: rgb(45, 15, 94);
+            font-size: 60px;
           }
 
           .bg-upalt{
