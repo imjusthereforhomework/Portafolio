@@ -1,0 +1,34 @@
+
+          h2{
+            color: rgb(160, 19, 241);
+          }
+          nav{
+            color: #123cdf;
+            background-color: #c08300;
+          }
+          .titulo1{
+              color: red;
+              font-size: 50px;
+              text-align: center;
+              padding: 30px;
+          }
+          #titulo-principal{
+              background-color: #381f07;
+          }
+              .footer{
+                color: black;
+                font-size: 20px;
+                text-align: center;
+                padding: 3px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 50px;
+            }
+          h1{
+            color: #28a84e;
+          }
+
+          .bg-upalt{
+            background-color: #960f96 !important;
+          }
