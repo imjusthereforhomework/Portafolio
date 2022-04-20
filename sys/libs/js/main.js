@@ -1,5 +1,4 @@
 
-
 function showView(view){
     $.ajax({
         data: {},
@@ -12,3 +11,7 @@ function showView(view){
     });
 }
 
+$(".nav-link").on("click", function(){
+    $(".nav-link").removeClass("active");
+    $(this).addClass("active");
+});

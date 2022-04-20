@@ -1,12 +1,12 @@
 
           h2{
-            color: rgb(45, 15, 94);
-            font-size: 60px;
+            color: rgb(255, 255, 255);
+            font-size: 50px;
           }
-          nav{
+          /*nav{
             color: #123cdf;
-            background-color: #c08300;
-          }
+            background-color: #c08300;*/
+          
           .titulo1{
               color: rgb(101, 67, 226);
               font-size: 50px;
@@ -27,7 +27,7 @@
                 height: 50px;
             }
           h1{
-            color: rgb(45, 15, 94);
+            color: rgb(159, 107, 241);
             font-size: 60px;
           }
 
