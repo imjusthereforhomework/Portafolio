@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio Agustin Cruz </title>
+    
+</head>
+
+<body>
+    <!--INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>AC/Y</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#valores" onclick="seleccionar(this)">VALORES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Agustín Cruz</span>, estudiante de la carrera de Ingeniería en Tecnologías de la Información</h2>
+                <p class="descripcion">En esta pagina web recopilo toda la informacion relevante acerca de mi formacion academica, logros, cursos tomados y proyectos en los que he 
+                    trabajado o que han generado en mi un fuerte impacto retroalimentativo</p>
+                    <a href="#portafolio">Ir a portafolio de trabajo</a>
+            </div>
+        </div>
+        </section>
+        <!-- Sobre mi-->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/foto1.jpeg" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre mi</p>
+                <h2>Un gusto, mi nombre es <span>Yessenia Agustín Cruz </span></h2>
+                <h3>Universitaria</h3>
+                <p>Actualmente estoy cursando el octavo cuatrimestre de mi carrera en ITI. Cuento con calificaciones que
+                    respaldan mi estatus como estudiante con buen promedio. Me considero una persona proactiva, me gusta involucrarme
+                    en nuevas actividades, además de que tengo un fuerte sentido de la responsabilidad. He trabajado en diversas clases de
+                    eventos academicos tanto como expectadora como parte de la organizacion. Me gustan los retos y el trabajo en equipo.</p>
+                <p>Si necesita mas informacion acerca de mi, por favor contacteme a una de mis redes sociales.</p>
+                <a href="#">Descargar CV</a>
+            </div>
+        </section>
+        <!-- Habilidades-->
+        <section id="valores">
+            <h3 class="titulo-seccion">VALORES QUE ME REPRESENTAN</h3>
+            <div class="fila">
+                <div class="valores">
+                    <span class="icono"><i class="fa-brands fa-codepen"></i></i></i></span>
+                    <h4>Perseverancia</h4>
+                    <hr>
+                    <p>Valoro mi capacidad de persistir en mis proyectos, manteniendo siempre un estado de animo alto
+                        conmigo misma y mis compañeros.
+                    </p>
+                </div>
+                <div class="valores">
+                    <span class="icono"><i class="fa-brands fa-codepen"></i></i></i></span>
+                    <h4>Integridad</h4>
+                    <hr>
+                    <p>Me considero buscadora de nuevas y mejores oportunidades laborales que me hagan crecer como trabajadora y ser humano.
+                    </p>
+                </div>
+                <div class="valores">
+                    <span class="icono"><i class="fa-brands fa-codepen"></i></i></i></span>
+                    <h4>Determinación</h4>
+                    <hr>
+                    <p>Nunca me detengo en ningun proyecto personal, laboral o emocional. Mi objetivo no es la perfección, es el aprendizaje que obtengo de lo que hago.
+                    </p>
+                </div>
+                <div class="valores">
+                    <span class="icono"><i class="fa-brands fa-codepen"></i></i></i></span>
+                    <h4>Bondad</h4>
+                    <hr>
+                    <p>Incluso en los mejores y peores momentos me mantengo neutral con todos mis colaboradores. No juzgo sino deseo ser juzgado, aprendo de ellos y respeto, y aprecio, todas sus personalidades.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Porcentaje de desempeño-->
+        <section>
+        <div class="contenedor-skills" id="skills">
+            <h3>PORCENTAJE DE DESEMPEÑO</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>HTML & CSS</p>
+                    <span class="porcentaje">25%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class=""></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>C# y C++</p>
+                    <span class="porcentaje">35%</span>
+                </div>
+                <div class="barra">
+                    <div id="c#" class=""></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>SQL</p>
+                    <span class="porcentaje">35%</span>
+                </div>
+                <div class="barra">
+                    <div id="sql" class=""></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>JAVASCRIPT</p>
+                    <span class="porcentaje">35%</span>
+                </div>
+                <div class="barra">
+                    <div id="js" class=""></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>PYTHON</p>
+                    <span class="porcentaje">40%</span>
+                </div>
+                <div class="barra">
+                    <div id="py" class=""></div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--PORTAFOLIO-->
+        <section id="portafolio">
+            <h3 class="titulo-seccion">MIS PROYECTOS, TRABAJOS y ACTIVIDADES</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/LOGO ORACLE WHITE.jpeg" alt="">
+                    <div class="info">
+                        <h4>ORACLE</h4>
+                        <p>Colaboracion social</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/foto3.png" alt="">
+                    <div class="info">
+                        <h4>TheFrogProject</h4>
+                        <p>Diseño de plataforma en Unity</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/foto4.jpg" alt="">
+                    <div class="info">
+                        <h4>Reconocimiento Facial en Python</h4>
+                        <p>Diseño web y programación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/foto5.png" alt="">
+                    <div class="info">
+                        <h4>CHEVRON</h4>
+                        <p>Seminario de interacción social y eco-sustentabilidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contactos-->
+        <section id="contacto">
+            <h3 class="titulo-seccion">CONTACTAME AHORA</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                        <input type="text" placeholder="Direccion Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Asunto: " class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje: " class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+        <!-- pie de pagina-->
+        <footer>
+            <p>Derechos recervados. Sujeto a cambios -2022</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
